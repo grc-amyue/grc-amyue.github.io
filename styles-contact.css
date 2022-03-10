@@ -83,7 +83,7 @@ html, body {
 }
 
 h1 {
-	font-family: avenir,sans-serif;
+	font-family: garamond, serif;
 	font-size: 1.75em;
     margin: 0px auto 10px auto;
     color: rgb(0, 0, 0);
@@ -134,8 +134,7 @@ a{
 }
 
 a:hover{
-	color: black;
-	background: pink;
+	color: grey;
 }
     
 
