@@ -135,7 +135,8 @@ a{
 }
 
 a:hover{
-	color: grey;
+	color: white;
+	background: tan
 }
     
 
