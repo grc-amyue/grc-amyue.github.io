@@ -63,6 +63,7 @@ html, body {
   background: url(images/background.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
+	font-family: 'Lucida Sans Regular', sans-serif
 	
 	
 }
@@ -83,14 +84,12 @@ html, body {
 }
 
 h1 {
-	font-family: garamond, serif;
 	font-size: 1.75em;
     margin: 0px auto 10px auto;
     color: rgb(0, 0, 0);
 }
 
 h2 {
-	font-family: baskerville-urw,serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 1.5em;
@@ -101,7 +100,6 @@ h2 {
 }
 
 p {
-	font-family: avenir,sans-serif;	
 	font-size: 1.2em;
     line-height: 1.6;
     color: rgb(0, 0, 0);
@@ -109,7 +107,6 @@ p {
 }
 
 nav{
-	font-family: garamond;
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
@@ -129,7 +126,7 @@ nav a{
 }
 
 a{
-	color: #444;
+	color: black;
 	text-decoration: none;
 	font-weight: bold;
 }
