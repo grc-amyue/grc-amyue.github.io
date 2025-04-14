@@ -6,6 +6,7 @@ body {
 	color: #222;
 	background-color: #fafafa;
 	box-sizing: border-box;
+	padding: 0 1em;
 	}
 	
 div.container {
@@ -76,10 +77,4 @@ textarea {
 ul {
 	list-style-type: none;
 	padding: 0;
-}
-
-@media screen and (max-width: 40em) {
-	div.container {
-		margin: 2em 1em 1em 1em;
-	  }
 }
