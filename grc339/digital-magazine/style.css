@@ -9,11 +9,14 @@ div.container, div.home-container {
 
 header{
     padding: 0.5rem 0.5rem 1rem 0.5rem;
+    text-align: center;
 }
 
 h1 {
-    width: 10em;
-    padding-bottom: 1em;
+    width: 20em;
+    padding: 1em 0em;
+    display: block;
+    margin: auto;
 }
 
 nav ul li {
@@ -24,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(93 118 150);
+    color: rgb(97 105 34);
 }
 
 a {
@@ -38,30 +41,39 @@ img {
 }
 
 h2 {
-    font-family: serif;
+    font-family: quincy-cf, serif;
+    font-weight: 900;
+    font-style: normal;
     font-size: 2em;
-    font-weight: bold;
-    color: rgb(93 118 150);
+    color: rgb(150 93 53);
     padding: 0.5rem 0.5rem 0rem 0.5rem;
+    line-height: 90%;
 }
 
 section.main-story h2 {
     font-size: 3em;
+    padding-bottom: 0.5rem;
 }
 
 p {
-    font-family: sans-serif;
+    font-family: fields, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     padding: 0rem 0.5rem 2rem 0.5rem;
 }
 
+section.secondary-story h2 {
+    padding-bottom: 0.5rem;
+}
+
 section.tertiary-story {
-    border-top: 1px solid rgb(93 118 150);
+    border-top: 1px solid rgb(150 93 53);
     margin: 0.5em;
 }
 
 section.tertiary-story h2 {
     font-size: 1em;
-    padding: 0.5rem 0rem 0rem 0rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
 section.tertiary-story p {
@@ -69,7 +81,8 @@ section.tertiary-story p {
 }
 
 figcaption {
-    font-family: sans-serif;
+    font-family: quincy-cf, serif;
+    font-weight: 100;
     font-style: italic;
     color: rgb(85 85 85);
     padding: 0.25rem 0.5rem 1rem 0.5rem;
@@ -85,7 +98,7 @@ article p {
 }
 
 aside {
-    background-color: rgb(200 203 246);
+    background-color: rgb(232 208 146);
     padding: 1rem 0.5rem 2rem 0.5rem;
 }
 
@@ -94,7 +107,7 @@ aside h2 {
 }
 
 footer {
-    background-color: rgb(93 118 150);
+    background-color: rgb(97 105 34);
 }
 
 footer p {
@@ -220,6 +233,6 @@ footer p {
 
     section.secondary-story a p {
         flex: 0 0 4em;
-        padding-bottom: 0em;
+        padding-bottom: 1em;
     }
 }
