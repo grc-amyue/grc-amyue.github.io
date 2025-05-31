@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- You need this to proper scale in actual mobile devices.-->
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Die Wanderin: Newsletter</title>
+
+		<!-- Helpful meta tags to fight GitHub aggresive caching-->
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		<link rel="stylesheet" href="https://use.typekit.net/oxw3dse.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+				<h1>
+					<a href="index.html"><img src="die-wanderin-logo.svg" alt="Die Wanderin logo" /></a>
+				</h1>
+				<nav>
+					<ul>
+						<li><a href="#">Cities</a></li>
+						<li><a href="#">Culture</a></li>
+						<li><a href="#">Food</a></li>
+						<li><a href="#">Art</a></li>
+						<li><a href="#">Architecture</a></li>
+						<li><a href="newsletter.html">Subscribe</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<main>
+				<h2>Subscribe to Our Newsletter</h2>
+				<form>
+					<section class="personal-info">
+						<h2>Personal Information</h2>
+						<ul>
+							<li><label for="first-name">First Name:</label> <input type="text" name="first-name" id="first-name" placeholder="Your first name" /></li>
+							<li><label for="last-name">Last Name:</label> <input type="text" name="last-name" id="last-name" placeholder="Your last name" /></li>
+							<li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>
+							<li><label for="phone">Phone:</label> <input type="tel" name="phone" id="phone" placeholder="your phone number" /></li>
+						</ul>
+					</section>
+					<section class="options">
+						<h2>Content Preferences</h2>
+						<ul>
+							<li><input type="checkbox" id="travel-tips" value="travel-tips" /> <label for="travel-tips">Travel tips</label></li>
+							<li><input type="checkbox" id="history" value="history" /> <label for="history">History</label></li>
+							<li><input type="checkbox" id="culture" value="culture" /> <label for="culture">Culture</label></li>
+							<li><input type="checkbox" id="food" value="food" /> <label for="food">Food</label></li>
+							<li><input type="checkbox" id="art" value="art" /> <label for="art">Art</label></li>
+							<li><input type="checkbox" id="architecture" value="architecture" /> <label for="architecture">Architecture</label></li>
+						</ul>
+					</section>
+					<section class="notes"><label for="notes"><h2>Please let us know if you have any content suggestions!</h2></label><textarea id="notes" name="notes"></textarea></section>
+                	<section class="submit">
+                    	<button type="submit">Submit</button>
+                	</section>
+				</form>
+			</main>
+
+			<footer>
+				<p>All rights reserved.</p>
+			</footer>
+		</div>
+	</body>
+</html>
